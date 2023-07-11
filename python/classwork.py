@@ -179,4 +179,77 @@ else:
    largest = num3
 print("The largest number between",num1,",",num2,"and",num3,"is",largest)
 '''
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>table</title>
+  </head>
+  <body>
+    <table boredr="2px">
+      <tr>
+        <th rowspan="2"><img src ="index.png"> </th>
+        <th colspan="3">Expences</th>
+      </tr>
+      <tr>
+        <th>abc</th>
+        <th>def</th>
+        <th>ghi</th>
+      </tr>
+      <tr>
+        <td>travel</td>
+        <td>$160</td>
+        <td>$150</td>
+        <td>$120</td>
+      </tr>
+      <tr>
+        <td>Food</td>
+        <td>$160</td>
+        <td>$150</td>
+        <td>$120</td>
+      </tr>
 
+    </table>
+
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.frame {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<span class="frame">Frame 1</span>
+<span class="frame">Frame 2</span>
+<span class="frame">Frame 3</span>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.frame {
+  display: block;
+  border: 1px solid black;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<span class="frame">Frame 1</span>
+<span class="frame">Frame 2</span>
+<span class="frame">Frame 3</span>
+
+</body>
+</html>
